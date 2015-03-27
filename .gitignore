@@ -1,0 +1,5 @@
+# ignore the compile file
+build
+
+# ignore the grade file 
+.gradle

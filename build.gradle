@@ -5,5 +5,9 @@ apply plugin: 'application'
 mainClassName = 'Hello'
 
 repositories {
-	mavenCentral()
+    mavenCentral()
+}
+
+dependencies{
+    compile group:'org.springframework', name:'spring-core',version:'4.1.6.RELEASE'
 }

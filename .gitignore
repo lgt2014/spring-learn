@@ -3,3 +3,7 @@ build
 
 # ignore the grade file 
 .gradle
+
+# ignore the idea files
+.idea/
+spring-learn.iml

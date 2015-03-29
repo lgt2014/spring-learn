@@ -7,3 +7,6 @@ build
 # ignore the idea files
 .idea/
 spring-learn.iml
+
+# ignore the emacs temp file
+\#*#

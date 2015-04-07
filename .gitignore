@@ -9,4 +9,7 @@ build
 spring-learn.iml
 
 # ignore the emacs temp file
-\#*#
+\#*
+
+# ignore the back file
+*.bak

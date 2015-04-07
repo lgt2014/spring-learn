@@ -7,5 +7,6 @@ import org.springframework.core.io.ClassPathResource;
 public class SpringManu {
     public static void main(String [] args){
         ClassPathResource res = new ClassPathResource("beans.xml");
+        System.out.print('A');
     }
 }

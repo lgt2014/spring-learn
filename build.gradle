@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
 apply plugin: 'application'
-
+apply plugin: 'maven'
 mainClassName = 'com.lgt.learn.SpringManu'
 
 repositories {
@@ -10,4 +10,12 @@ repositories {
 
 dependencies{
     compile group:'org.springframework', name:'spring-core',version:'4.0.0.RELEASE'
+}
+
+uploadArchives {
+	repositories {
+		mavenDeployer {
+			repository(url: "file://.")
+		}
+	}
 }
